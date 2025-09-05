@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asistente IA para Profesionales</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #004aad;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.2em;
+        }
+        main {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #004aad;
+            font-size: 1.6em;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #ff6b00;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #e55b00;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Asistente IA para Profesionales</h1>
+    <a href="https://wa.me/34633116305" class="cta-button">Agenda tu demo</a>
+</header>
+
+<main>
+
+<section id="problema">
+    <h2>El Problema</h2>
+    <p>Gestionar citas, confirmar clientes y organizar agendas manualmente consume tiempo valioso y aumenta el riesgo de errores.</p>
+</section>
+
+<section id="solucion">
+    <h2>La Solución</h2>
+    <p>Nuestro Asistente IA automatiza completamente tu agenda profesional:</p>
+    <ul>
+        <li>Envía recordatorios inteligentes a tus clientes.</li>
+        <li>Gestiona confirmaciones automáticamente.</li>
+        <li>Genera resúmenes post-consulta precisos.</li>
+    </ul>
+    <p>Optimiza tu tiempo y mejora la experiencia de tus clientes.</p>
+</section>
+
+<section id="cta-final">
+    <a href="https://wa.me/5212345678900" class="cta-button">Agenda tu demo</a>
+</section>
+
+</main>
+
+</body>
+</html>
