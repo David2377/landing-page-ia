@@ -59,7 +59,8 @@
 
 <header>
     <h1>Asistente IA para Profesionales</h1>
-    <a href="https://wa.me/5212345678900" class="cta-button">Agenda tu demo</a>
+    <!-- Botón de WhatsApp -->
+    <a id="wa-button" href="#" class="cta-button">Agenda tu demo</a>
 </header>
 
 <main>
@@ -81,10 +82,24 @@
 </section>
 
 <section id="cta-final">
-    <a href="https://wa.me/5212345678900" class="cta-button">Agenda tu demo</a>
+    <a id="wa-button-final" href="#" class="cta-button">Agenda tu demo</a>
 </section>
 
 </main>
+
+<!-- Script para codificar mensaje de WhatsApp dinámicamente -->
+<script>
+    const numero = "34633116305"; // tu número
+    const mensaje = "Hola, quiero agendar una demo de tu Asistente IA";
+
+    // Botón del header
+    const botonHeader = document.getElementById("wa-button");
+    botonHeader.href = "https://api.whatsapp.com/send?phone=" + numero + "&text=" + encodeURIComponent(mensaje);
+
+    // Botón del footer
+    const botonFooter = document.getElementById("wa-button-final");
+    botonFooter.href = "https://api.whatsapp.com/send?phone=" + numero + "&text=" + encodeURIComponent(mensaje);
+</script>
 
 </body>
 </html>
