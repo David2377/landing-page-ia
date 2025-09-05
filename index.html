@@ -59,11 +59,46 @@
 
 <header>
     <h1>Asistente IA para Profesionales</h1>
+    <!-- Botón de WhatsApp -->
     <a id="wa-button" href="#" class="cta-button">Agenda tu demo</a>
 </header>
 
 <main>
-
 <section id="problema">
     <h2>El Problema</h2>
-    <p>Gestionar citas, confirmar clientes y organizar agendas manualmente consume tie
+    <p>Gestionar citas, confirmar clientes y organizar agendas manualmente consume tiempo valioso y aumenta el riesgo de errores.</p>
+</section>
+
+<section id="solucion">
+    <h2>La Solución</h2>
+    <p>Nuestro Asistente IA automatiza completamente tu agenda profesional:</p>
+    <ul>
+        <li>Envía recordatorios inteligentes a tus clientes.</li>
+        <li>Gestiona confirmaciones automáticamente.</li>
+        <li>Genera resúmenes post-consulta precisos.</li>
+    </ul>
+    <p>Optimiza tu tiempo y mejora la experiencia de tus clientes.</p>
+</section>
+
+<section id="cta-final">
+    <a id="wa-button-final" href="#" class="cta-button">Agenda tu demo</a>
+</section>
+</main>
+
+<!-- Script para codificar mensaje de WhatsApp dinámicamente -->
+<script>
+    const numero = "34633116305"; // tu número sin +
+    const mensaje = "Hola, quiero agendar una demo de tu Asistente IA";
+
+    // Botón del header
+    const botonHeader = document.getElementById("wa-button");
+    botonHeader.href = "https://api.whatsapp.com/send?phone=" + numero + "&text=" + encodeURIComponent(mensaje);
+
+    // Botón del footer
+    const botonFooter = document.getElementById("wa-button-final");
+    botonFooter.href = "https://api.whatsapp.com/send?phone=" + numero + "&text=" + encodeURIComponent(mensaje);
+</script>
+
+</body>
+</html>
+
